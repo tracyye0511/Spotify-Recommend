@@ -97,7 +97,7 @@ def get_trending_playlist_data(playlist_id, access_token):
 
     return df
 
-playlist_id = '5ABHKGoOzxkaa28ttQV9sE' #That's the top 100 popular songs on Spotify
+playlist_id = '37i9dQZEVXbNG2KDcFcKOF' #That's the top 100 popular songs on Spotify
 
 # Call the function to get the music data from the playlist and store it in a DataFrame
 music_df = get_trending_playlist_data(playlist_id, access_token)
